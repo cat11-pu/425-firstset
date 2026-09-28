@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_rhs_code": "E_BAD_RHS",
+  "no_rule_code": "E_NO_RULE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "rules": [], "firsts": [], "lefts": [], "clashes": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "rule", "lhs": "k", "rhs": ["n", "x"] },
+    { "id": 2, "kind": "rule", "lhs": "n", "rhs": ["n"] },
+    { "id": 3, "kind": "rule", "lhs": "n", "rhs": ["a"] },
+    { "id": 4, "kind": "rule", "lhs": "m", "rhs": ["b"] },
+    { "id": 5, "kind": "rule", "lhs": "m", "rhs": ["c"] },
+    { "id": 6, "kind": "first", "nt": "n" },
+    { "id": 7, "kind": "first", "nt": "k" },
+    { "id": 8, "kind": "audit" }
+  ]
+}
